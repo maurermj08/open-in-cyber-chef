@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+main {
+    margin-left: 170px;
+    padding: 1em;
+    overflow: hidden;
+}
+
+input {
+	width: 400px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Open in CyberChef Options</h1>
+</header>
+
+<main>
+  URL:<br>
+  <input id="cyberchef_url" type="text" name="cyberchef_url" value="https://gchq.github.io/CyberChef">
+  <div id="status"></div>
+  <br>
+  <button id="save">Save</button>
+</main>
+
+</div>
+
+<script src="options.js"></script>
+</body>
+</html>

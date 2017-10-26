@@ -4,13 +4,12 @@
 <style>
 div.container {
     width: 100%;
-    border: 1px solid gray;
 }
 
 header {
-    padding: 1em;
-    color: white;
-    background-color: black;
+    padding: 10px;
+    color: #468847;
+    background-color: #dff0d8;
     clear: left;
     text-align: center;
 }
@@ -21,13 +20,19 @@ nav ul {
 }
    
 main {
-    margin-left: 170px;
+    margin: 0 auto;
+	width: 400px;
     padding: 1em;
     overflow: hidden;
 }
 
 input {
-	width: 400px;
+	width: 350px;
+}
+
+button {
+	width: 100px;
+	margin-left: 140px;
 }
 
 </style>
@@ -41,9 +46,10 @@ input {
 </header>
 
 <main>
-  URL:<br>
-  <input id="cyberchef_url" type="text" name="cyberchef_url" value="https://gchq.github.io/CyberChef">
-  <div id="status"></div>
+  <span>
+  URL: <input id="cyberchef_url" type="text" name="cyberchef_url" value="https://gchq.github.io/CyberChef">
+  </span>
+  <br>
   <br>
   <button id="save">Save</button>
 </main>

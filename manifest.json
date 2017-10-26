@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "CyberChef Search",
+  "name": "Open in CyberChef",
   "short_name": "CyberChef",
-  "description": "Uploads the selected text to CyberChef",
+  "description": "Adds an open selected text in CyberChef option to the right-click context menu",
   "version": "0.0.1",
   "minimum_chrome_version": "38",
   "permissions": [
@@ -10,7 +10,9 @@
     "contextMenus", 
     "tabs"],
   "icons": {
-    "16": "assets/chef.png"
+    "16": "assets/cyberchef-16x16.png",
+	"48": "assets/cyberchef-48x48.png",
+	"128": "assets/cyberchef-128x128.png"
   },
   "options_page": "options.html",
   "background": {"page": "background.html"}

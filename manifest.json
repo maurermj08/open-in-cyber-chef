@@ -3,7 +3,7 @@
   "name": "Open in CyberChef",
   "short_name": "CyberChef",
   "description": "Adds an open selected text in CyberChef option to the right-click context menu",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "minimum_chrome_version": "38",
   "permissions": [
     "storage",

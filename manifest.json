@@ -7,8 +7,7 @@
   "minimum_chrome_version": "38",
   "permissions": [
     "storage",
-    "contextMenus",
-    "tabs"
+    "contextMenus"
   ],
   "icons": {
     "16": "assets/cyberchef-16x16.png",

@@ -1,5 +1,5 @@
 function encodeForCyberChef(data) {
-  return btoa(unescape(encodeURIComponent(data)));
+  return encodeURIComponent(btoa(unescape(encodeURIComponent(data))));
 }
 
 openInCyberChef = function(word){

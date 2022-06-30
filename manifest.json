@@ -1,9 +1,9 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Open in CyberChef",
   "short_name": "CyberChef",
   "description": "Adds an open selected text in CyberChef option to the right-click context menu",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "minimum_chrome_version": "38",
   "permissions": [
     "storage",
@@ -15,5 +15,5 @@
 	"128": "assets/cyberchef-128x128.png"
   },
   "options_page": "options.html",
-  "background": {"page": "background.html"}
+  "background": {"service_worker": "main.js"}
 }
